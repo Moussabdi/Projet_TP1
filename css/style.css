@@ -160,7 +160,7 @@ header img {
   width: 1px;
   word-wrap: normal !important;
 }
-#section1 {
+.section1 {
   border-bottom: 1.5px solid #000;
   margin-bottom: 5rem;
 }
@@ -311,7 +311,7 @@ header img {
 /*********************************/
 /* Clients ou Section3*/
 /*********************************/
-#section3 {
+.section3 {
   margin-top: 10rem;
   margin-bottom: 10rem;
   border-bottom: 1.5px solid;
@@ -364,7 +364,7 @@ header img {
 /* Des statisques ou section4*/
 /*********************************/
 
-#section4 {
+.section4 {
   margin-bottom: 10rem;
   border-bottom: 1.5px solid;
   padding-bottom: 8rem;
@@ -419,7 +419,7 @@ header img {
 /*********************************/
 /* Témoignage ou Section5*/
 /*********************************/
-#section5 {
+.section5 {
   border-bottom: 1.5px solid #000;
   margin-bottom: 10rem;
   padding-bottom: 8rem;
@@ -473,7 +473,7 @@ header img {
 /*********************************/
 /* section6 */
 /*********************************/
-#section6 {
+.section6 {
   border-bottom: 1.5px solid #000;
   margin-bottom: 6rem;
   padding-bottom: 8rem;
@@ -557,7 +557,7 @@ header img {
 footer {
   margin-bottom: 4rem;
 }
-#section7 {
+.section7 {
   border-bottom: 2px solid #999;
   margin-bottom: 5rem;
   padding-bottom: 5rem;

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -14,6 +15,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .container {
   width: 90%;
   max-width: 120rem;
