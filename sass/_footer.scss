@@ -1,13 +1,19 @@
+@import "variable";
 /*********************************/
 /* footer*/
 /*********************************/
 footer {
   margin-bottom: 4rem;
+  background-color: $color-background-footer;
 }
-.section7 {
+
+.BordureFooter {
   border-bottom: 2px solid #999;
+  border-top: 2px solid #000;
   margin-bottom: 5rem;
+  margin-top: 8rem;
   padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .Footer__section7 {
@@ -36,7 +42,7 @@ footer {
 .Footer__menu__link:hover,
 .Footer__menu__link:active {
   background-color: #999;
-  color: #fff;
+  color: $color-text-header_footer;
 }
 .Footer__section8 {
   display: flex;
@@ -52,7 +58,7 @@ footer {
 .Footer__section8__textnumero__item--icon {
   width: 2.8rem;
   height: 2.8rem;
-  color: #0f8492;
+  color: $color-background-header;
 }
 .Footer__section8__textnumero__items {
   display: flex;
@@ -82,5 +88,5 @@ footer {
 .Footer_section8_textnumero__item__email_link:hover,
 .Footer_section8_textnumero__item__email_link:active {
   background-color: #999;
-  color: #fff;
+  color: $color-text-header_footer;
 }

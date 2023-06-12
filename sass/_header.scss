@@ -1,3 +1,5 @@
+@import "variable";
+
 /*********************************/
 /* Header */
 /*********************************/
@@ -5,36 +7,37 @@
 .logo {
   height: 5rem;
 }
-
+%fontMargin {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
 header h1 {
+  @extend %fontMargin;
   font-size: 3.5rem;
 }
 
 h1 {
   font-size: 4.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 600;
-  margin: 0;
+  @extend %fontMargin;
 }
 h2 {
+  @extend %fontMargin;
   font-size: 3.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 500;
-  margin: 0;
 }
 h3 {
+  @extend %fontMargin;
   font-size: 2.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 400;
-  margin: 0;
 }
 p {
   margin: 0;
 }
 
 .header {
-  background-color: #0f8492;
-  color: #fff;
+  background-color: $color-background-header;
+  color: $color-text-header_footer;
   position: relative;
   align-items: center;
   padding: 1rem 0 1rem 0;

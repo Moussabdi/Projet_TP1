@@ -1,8 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto+Slab&family=Rubik:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Slab&family=Rubik:wght@400;500;600;700&display=swap");
-/*********************************/
-/* General */
+/**  --------------------------------------- **/
+/**  VARIABLES **/
+/**  --------------------------------------- **/
+/**  VARIABLES **/
+/*********************************/ /* General */
 /*********************************/
 * {
   box-sizing: border-box;
@@ -28,11 +31,18 @@ body {
   margin: 0 auto;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* Header */
 /*********************************/
 .logo {
   height: 5rem;
+}
+
+h3, h2, h1, header h1 {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
 }
 
 header h1 {
@@ -41,23 +51,17 @@ header h1 {
 
 h1 {
   font-size: 4.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 600;
-  margin: 0;
 }
 
 h2 {
   font-size: 3.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 500;
-  margin: 0;
 }
 
 h3 {
   font-size: 2.5rem;
-  font-family: "Rubik", sans-serif;
   font-weight: 400;
-  margin: 0;
 }
 
 p {
@@ -65,7 +69,7 @@ p {
 }
 
 .header {
-  background-color: #0f8492;
+  background-color: #0d1327;
   color: #fff;
   position: relative;
   align-items: center;
@@ -78,6 +82,8 @@ header img {
   top: 1rem;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* NAVIGATION */
 /*********************************/
@@ -144,6 +150,8 @@ header img {
   cursor: auto;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* Trimeck ou Section1*/
 /*********************************/
@@ -237,6 +245,8 @@ header img {
   background-color: #087f5b;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /*Logiciel ou Section2*/
 /*********************************/
@@ -329,6 +339,8 @@ header img {
   text-align: center;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* Clients ou Section3*/
 /*********************************/
@@ -391,6 +403,8 @@ header img {
   transition: all 0.4s;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* Des statisques ou section4*/
 /*********************************/
@@ -447,6 +461,8 @@ header img {
   color: #fff;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* Témoignage ou Section5*/
 /*********************************/
@@ -510,18 +526,14 @@ header img {
 .quatrecolimgtexticon__item__icon {
   width: 2.8rem;
   height: 2.8rem;
-  color: #0f8492;
+  color: #0d1327;
 }
 
+/**  --------------------------------------- **/
+/**  VARIABLES **/
 /*********************************/
 /* section6 */
 /*********************************/
-.section6 {
-  border-bottom: 1.5px solid #000;
-  margin-bottom: 6rem;
-  padding-bottom: 8rem;
-}
-
 .map {
   width: 100%;
   position: relative;
@@ -602,17 +614,22 @@ header img {
   height: 13px;
 }
 
-/*********************************/
+/**  --------------------------------------- **/
+/**  VARIABLES **/ /*********************************/
 /* footer*/
 /*********************************/
 footer {
   margin-bottom: 4rem;
+  background-color: #b11f28;
 }
 
-.section7 {
+.BordureFooter {
   border-bottom: 2px solid #999;
+  border-top: 2px solid #000;
   margin-bottom: 5rem;
+  margin-top: 8rem;
   padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .Footer__section7 {
@@ -663,7 +680,7 @@ footer {
 .Footer__section8__textnumero__item--icon {
   width: 2.8rem;
   height: 2.8rem;
-  color: #0f8492;
+  color: #0d1327;
 }
 
 .Footer__section8__textnumero__items {

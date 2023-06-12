@@ -1,3 +1,5 @@
+@import "variable";
+
 /*********************************/
 /* NAVIGATION */
 /*********************************/
@@ -43,7 +45,7 @@
   width: max-content;
   transition: all 0.3s ease;
   text-decoration: underline;
-  color: #fff;
+  color: $color-text-header_footer;
   font-weight: 500;
   font-size: 1.7rem;
   padding: 0 1rem;

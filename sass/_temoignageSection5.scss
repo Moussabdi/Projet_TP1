@@ -1,3 +1,5 @@
+@import "variable";
+
 /*********************************/
 /* Témoignage ou Section5*/
 /*********************************/
@@ -51,5 +53,5 @@
 .quatrecolimgtexticon__item__icon {
   width: 2.8rem;
   height: 2.8rem;
-  color: #0f8492;
+  color: $color-background-header;
 }
