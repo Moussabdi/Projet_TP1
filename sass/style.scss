@@ -1,21 +1,25 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-html {
-  font-size: 62.5%;
-}
+@use "variable";
 
-body {
-  color: #333;
-  font-size: 1.8rem;
-  line-height: 1.5;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
-.container {
-  width: 90%;
-  max-width: 120rem;
-  margin: 0 auto;
-}
+@use "general";
+
+@use "header";
+
+@use "navigation";
+
+@use "trimechSection1";
+
+@use "logicielSection2";
+
+@use "_clientsSection3";
+
+@use "_statistiquesSection4";
+
+@use "_temoignageSection5";
+
+@use "section6";
+
+@use "footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto+Slab&family=Rubik:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Slab&family=Rubik:wght@400;500;600;700&display=swap");

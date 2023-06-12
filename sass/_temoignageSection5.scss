@@ -1,0 +1,55 @@
+/*********************************/
+/* Témoignage ou Section5*/
+/*********************************/
+
+.section5 {
+  border-bottom: 1.5px solid #000;
+  margin-bottom: 10rem;
+  padding-bottom: 8rem;
+}
+.entete__text {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.entete__text h2 {
+  margin-bottom: 2rem;
+}
+.entete__text p {
+  margin-bottom: 8rem;
+}
+.quatrecolimgtexticon__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+.quatrecolimgtexticon__item:not(:nth-of-type(4)) {
+  border-right: 1px solid #999;
+}
+.quatrecolimgtexticon__item img {
+  width: 50%;
+  border-radius: 1rem;
+}
+.quatrecolimgtexticon__item h2 {
+  font-size: 3rem;
+}
+.quatrecolimgtexticon__item h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.quatrecolimgtexticon__item p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.quatrecolimgtexticon__item__icons {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  gap: 1rem;
+}
+.quatrecolimgtexticon__item__icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  color: #0f8492;
+}

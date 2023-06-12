@@ -1,0 +1,55 @@
+/*********************************/
+/* Des statisques ou section4*/
+/*********************************/
+
+.section4 {
+  margin-bottom: 10rem;
+  border-bottom: 1.5px solid;
+  padding-bottom: 8rem;
+}
+.chartTextLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.chartTextLink__chart {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  background-color: #ececec;
+  background: repeating-conic-gradient(
+    from 0deg,
+    #5e0d0d 0deg 105deg,
+    #cccccc 75deg 360deg
+  );
+}
+.chartTextLink__cont {
+  width: 40%;
+}
+.chartTextLink__cont__items {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+}
+.chartTextLink__cont__item strong {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.chartTextLink__cont__link:link,
+.chartTextLink__cont__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+  color: #000;
+}
+
+.chartTextLink__cont__link:hover,
+.chartTextLink__cont__link:active {
+  background-color: #999;
+  color: #fff;
+}
