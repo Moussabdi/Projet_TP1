@@ -36,40 +36,17 @@
     padding: 0;
   }
   /*********************************/
-  /* Index*/
-  /*********************************/
-  .contenu-banniere {
-    padding: 15rem 0 15rem 0;
-  }
-  .deuxcolvideotext__item {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .deuxcolvideotext__item__contenu__text {
-    width: 100%;
-    margin-top: 2rem;
-  }
-  .deuxcolvideotext__item__video {
-    margin-top: 1rem;
-  }
-
-  /*********************************/
-  /* Propos*/
+  /* section6 */
   /*********************************/
 
-  /*********************************/
-  /* Joindre*/
-  /*********************************/
-  .map {
-    position: relative;
-    padding-bottom: 85%;
-    padding-top: 3rem;
-    height: 0;
-    overflow: hidden;
+  .input__namelastname {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   body {
     font-size: 1.6rem;
   }
@@ -80,24 +57,11 @@
   /*********************************/
   /* NAVIGATION*/
   /*********************************/
-
-  .navbar__item {
-    height: 5rem;
-    padding: 0;
-  }
-  .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    z-index: 1;
-    width: 100%;
-    max-width: max-content;
-    padding: 0;
-  }
-
   .navbar__menu {
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
     margin: 0;
     position: absolute;
     top: -100rem;
@@ -106,17 +70,26 @@
     transition: all 0.5s ease;
     z-index: -1;
     background: #fff;
-    width: 100%;
+  }
+  .navbar__item {
+    color: #000;
+    height: 5rem;
+    padding: 0;
+  }
+  .navbar__item--flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
   }
 
   .navbar__menu.active {
+    width: 100%;
     background: rgba(255, 255, 255, 0.9);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
     height: 60vh;
-    width: 100%;
     font-size: 1.6rem;
   }
 
@@ -143,9 +116,6 @@
     transition: all 0.3 ease;
     text-decoration: none;
   }
-  .navbar__btn {
-    padding: 0;
-  }
 
   #mobile-menu {
     position: absolute;
@@ -170,36 +140,16 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  /*********************************/
-  /* Index*/
-  /*********************************/
 
   /*********************************/
-  /* Joindre*/
+  /* Footer*/
   /*********************************/
 
-  .textnumero__item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+  .Footer__section8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 2rem;
-  }
-
-  .map {
-    position: relative;
-    padding-bottom: 85%;
-    padding-top: 3rem;
-    height: 0;
-    overflow: hidden;
-  }
-  .textnumero__item1__numero a {
-    padding: 1rem 0 1rem 0;
-    font-size: 2.5rem;
-  }
-  .textnumero__item2__email a {
-    margin: 2rem 0 0 0;
-    padding: 1rem 0 1rem 0;
-    font-size: 2.5rem;
   }
 }
 
@@ -207,29 +157,15 @@
   body {
     font-size: 1.6rem;
   }
-  .container {
-    max-width: max-content;
-  }
+
   /*********************************/
   /* NAVIGATION*/
   /*********************************/
-  .navbar__item {
-    height: 5rem;
-    padding: 0;
-  }
-  .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    z-index: 1;
-    width: 100%;
-    max-width: max-content;
-    padding: 0;
-  }
-
   .navbar__menu {
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
     margin: 0;
     position: absolute;
     top: -100rem;
@@ -238,17 +174,26 @@
     transition: all 0.5s ease;
     z-index: -1;
     background: #fff;
-    width: 100%;
+  }
+  .navbar__item {
+    color: #000;
+    height: 5rem;
+    padding: 0;
+  }
+  .navbar__item--flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
   }
 
   .navbar__menu.active {
+    width: 100%;
     background: rgba(255, 255, 255, 0.9);
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
     height: 60vh;
-    width: 100%;
     font-size: 1.6rem;
   }
 
@@ -275,17 +220,6 @@
     transition: all 0.3 ease;
     text-decoration: none;
   }
-  .navbar__btn {
-    padding: 0;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 5rem;
-  }
 
   #mobile-menu {
     position: absolute;
@@ -310,156 +244,78 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  /*********************************/
-  /* Index*/
-  /*********************************/
-  .positionVideo {
-    width: 52rem;
-    height: 31.5rem;
-  }
-  .deuxcolvideotext__item__contenu__text {
-    width: 95%;
-    margin-top: 2rem;
-  }
-  /*********************************/
-  /* Propos*/
-  /*********************************/
 
+  /**********************************/
+  /* Des statisques ou section4*/
   /*********************************/
-  /* Service*/
-  /*********************************/
-  .grid__3__cols {
+  .chartTextLink {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-  }
-
-  /*********************************/
-  /* Forfait*/
-  /*********************************/
-  th {
-    display: none;
-  }
-
-  td {
-    display: block;
-  }
-  td:first-child {
-    padding-top: 2rem;
-  }
-  td:last-child {
-    padding-bottom: 1rem;
-  }
-  td {
-    display: grid;
     align-items: center;
-    gap: 0.5rem;
-    grid-template-columns: 15ch auto;
+    gap: 5rem;
   }
-  td::before {
-    content: attr(td-des__item);
-    font-weight: 600;
-    text-transform: capitalize;
+  .chartTextLink__cont {
+    width: 100%;
   }
-  td:nth-of-type(2)::before {
-    content: "Évaluation préliminaire";
+  .chartTextLink__cont__item strong {
+    font-size: 3rem;
+    font-weight: 700;
   }
-  td:nth-of-type(3)::before {
-    content: "Immigration Économique";
-  }
-  td:nth-of-type(4)::before {
-    content: "Parrainage";
-  }
-  td:nth-of-type(5)::before {
-    content: "Résidence temporaire";
-  }
-  table {
-    border-collapse: collapse;
+  /*********************************/
+  /* Témoignage ou section5*/
+  /*********************************/
+  .entete__text {
+    width: 100%;
     text-align: center;
-    margin: 3rem 0 5rem 0;
   }
-  .th-forfait,
-  .th-prix {
-    padding: 1.3rem 0 1.3rem 0;
-    font-size: 1.3rem;
+  .quatrecolimgtexticon__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
   }
 
-  .td-prix__contenu {
-    font-size: 1.3rem;
-  }
-  .th-inclus {
-    font-size: 1.1rem;
-  }
-  .th-vide2 {
-    padding: 1.5rem 0 1.5rem 0;
-  }
-  .td-des__item {
-    max-height: max-content;
-  }
   /*********************************/
-  /* Joindre*/
+  /* section6 */
   /*********************************/
-  .textnumero__item {
+  .map {
+    width: 100%;
+    position: relative;
+  }
+
+  #form {
+    width: 90%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #c9c9c9;
+  }
+  .input__namelastname {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: space-between;
   }
-
-  .map {
-    position: relative;
-    padding-bottom: 85%;
-    padding-top: 3rem;
-    height: 0;
-    overflow: hidden;
-  }
-  .textnumero__item1__numero a {
-    padding: 1rem 0 1rem 0;
-    font-size: 2rem;
-  }
-  .textnumero__item2__email a {
-    margin: 2rem 0 0 0;
-    padding: 1rem 0 1rem 0;
-    font-size: 2rem;
-  }
-  /*********************************/
-  /* Service*/
-  /*********************************/
-  .grid__3__cols {
-    column-gap: 2rem;
-    row-gap: 4.8rem;
-    grid-template-columns: 1fr 1fr;
-  }
-  .troiscolimgtext__item__contenu:nth-of-type(4) {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  /*********************************/
-  /* servicesDetail */
-  /*********************************/
-
   /*********************************/
   /* Footer*/
   /*********************************/
-  .footer {
-    margin-top: 5rem;
-    padding: 5rem 0;
+
+  .Footer__menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1rem;
   }
-  .grid--footer {
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 4rem;
-  }
-  .footer-logo {
-    margin-bottom: 8rem;
+  .Footer__section8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 3rem;
   }
 }
 
 @media screen and (max-width: 570px) {
   body {
     font-size: 1.6rem;
-  }
-  .container {
-    max-width: max-content;
   }
 
   /*********************************/
@@ -482,23 +338,12 @@
   /*********************************/
   /* NAVIGATION*/
   /*********************************/
-  .navbar__item {
-    height: 5rem;
-    padding: 0;
-  }
-  .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    z-index: 1;
-    width: 100%;
-    max-width: max-content;
-    padding: 0;
-  }
 
   .navbar__menu {
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
     margin: 0;
     position: absolute;
     top: -100rem;
@@ -508,8 +353,19 @@
     z-index: -1;
     background: #fff;
   }
+  .navbar__item {
+    color: #000;
+    height: 5rem;
+    padding: 0;
+  }
+  .navbar__item--flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
 
   .navbar__menu.active {
+    width: 100%;
     background: rgba(255, 255, 255, 0.9);
     top: 100%;
     opacity: 1;
@@ -542,17 +398,6 @@
     transition: all 0.3 ease;
     text-decoration: none;
   }
-  .navbar__btn {
-    padding: 0;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    height: 5rem;
-  }
 
   #mobile-menu {
     position: absolute;
@@ -578,182 +423,117 @@
     transform: translateY(-8px) rotate(-45deg);
   }
   /*********************************/
-  /* Index*/
+  /* Trimeck ou Section1*/
   /*********************************/
-  .index_section1 {
-    background-position: 50% 20%;
+
+  /*********************************/
+  /* Logiciel ou Section2*/
+  /*********************************/
+  .inputBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  .contenu-banniere {
-    padding: 1.8rem;
+  .inputBtn__input {
+    padding: 2rem 6rem 2rem 1rem;
   }
-  .deuxcolvideotext__item {
+  .imgBtn__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  .text--large {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  .troiscolimgtext {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /*********************************/
+  /* Clients ou Section3*/
+  /*********************************/
+  .gallery {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+  }
+  .gallery img:hover {
+    transform: scale(1);
+    transition: all 0.4s;
+  }
+
+  /*********************************/
+  /* Des statisques ou section4*/
+  /*********************************/
+  .chartTextLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .chartTextLink__cont {
+    width: 100%;
+  }
+  .chartTextLink__cont__item strong {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  /*********************************/
+  /* Témoignage ou section5*/
+  /*********************************/
+  .entete__text {
+    width: 100%;
+    text-align: center;
+  }
+  .quatrecolimgtexticon__items {
     display: grid;
     grid-template-columns: 1fr;
-  }
-  .positionVideo {
-    width: 29rem;
-    height: 31.5rem;
-  }
-  .deuxcolvideotext__item__contenu__text {
-    width: 90%;
-    margin-top: 2rem;
-  }
-  .deuxcolvideotext__item__video {
-    margin-top: 1rem;
+    gap: 5rem;
   }
 
   /*********************************/
-  /* Propos*/
+  /* section6 */
   /*********************************/
-
-  /*********************************/
-  /* Service*/
-  /*********************************/
-  .grid__3__cols {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  /*********************************/
-  /* Forfait*/
-  /*********************************/
-  th {
-    display: none;
-  }
-
-  td {
-    display: block;
-  }
-  td:first-child {
-    padding-top: 2rem;
-  }
-  td:last-child {
-    padding-bottom: 1rem;
-  }
-  td {
-    display: grid;
-    align-items: center;
-    gap: 0.5rem;
-    grid-template-columns: 15ch auto;
-  }
-  td::before {
-    content: attr(td-des__item);
-    font-weight: 600;
-    text-transform: capitalize;
-  }
-  td:nth-of-type(2)::before {
-    content: "Évaluation préliminaire";
-  }
-  td:nth-of-type(3)::before {
-    content: "Immigration Économique";
-  }
-  td:nth-of-type(4)::before {
-    content: "Parrainage";
-  }
-  td:nth-of-type(5)::before {
-    content: "Résidence temporaire";
-  }
-  table {
-    border-collapse: collapse;
-    text-align: center;
-    margin: 3rem 0 5rem 0;
-  }
-  .th-forfait,
-  .th-prix {
-    padding: 1.3rem 0 1.3rem 0;
-    font-size: 1.3rem;
-  }
-
-  .td-prix__contenu {
-    font-size: 1.3rem;
-  }
-  .th-inclus {
-    font-size: 1.1rem;
-  }
-  .th-vide2 {
-    padding: 1.5rem 0 1.5rem 0;
-  }
-  .td-des__item {
-    max-height: max-content;
-  }
-  /*********************************/
-  /* Joindre*/
-  /*********************************/
-  .textnumero__item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  .textnumero__item2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: flex-start;
-  }
   .map {
+    width: 100%;
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 3rem;
-    height: 0;
-    overflow: hidden;
   }
-  .textnumero__item1__numero a {
-    padding: 1rem 0 1rem 0;
-    font-size: 1.6rem;
-  }
-  .textnumero__item2__email a {
-    margin: 2rem 0 0 0;
-    padding: 1rem 0 1rem 0;
-    font-size: 1.4rem;
-  }
-  /*********************************/
-  /* Formulaire*/
-  /*********************************/
-  form {
-    font-size: 1.5rem;
-  }
-  .form_info_client,
-  .form_info_facultatif {
+
+  #form {
     width: 90%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #c9c9c9;
   }
-  .form_info_client {
-    margin: 0 0 5rem 0;
-  }
-  input,
-  select {
-    font-size: 1.5rem;
-  }
-  fieldset legend {
-    font-size: 2rem;
-  }
-  /*********************************/
-  /* servicesDetail */
-  /*********************************/
-  .deuxcolimgtxt {
+  .input__namelastname {
     display: flex;
     flex-direction: column;
-    margin-top: 3rem;
-  }
-  .deuxcolimgtxt__item {
-    width: 100%;
-  }
-  .deuxcolimgtxt__aside {
-    width: 100%;
+    justify-content: space-between;
   }
   /*********************************/
   /* Footer*/
   /*********************************/
-  .footer {
-    margin-top: 5rem;
-    padding: 5rem 0;
+
+  .Footer__menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1rem;
   }
-  .grid--footer {
-    grid-template-columns: 1.5fr;
-    row-gap: 4rem;
-  }
-  .footer-logo {
-    margin-bottom: 8rem;
+  .Footer__section8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 3rem;
   }
 }

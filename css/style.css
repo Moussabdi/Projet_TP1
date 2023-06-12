@@ -59,16 +59,15 @@ h3 {
 p {
   margin: 0;
 }
-header div a {
+/* header div a {
   text-decoration: none;
-}
-nav ul {
+} */
+/* nav ul {
   padding: 0;
-}
-
-nav li {
+} */
+/* nav li {
   display: inline-block;
-}
+} */
 
 .header {
   background-color: #0f8492;
@@ -103,6 +102,9 @@ header img {
   margin: 0 auto;
 }
 .navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
   position: relative;
   list-style: none;
   top: 2rem;
@@ -117,7 +119,9 @@ header img {
   justify-content: flex-end;
   gap: 1rem;
 }
-
+.navbar__links {
+  text-decoration: underline;
+}
 .navbar__links:link,
 .navbar__links:visited {
   height: 100%;
@@ -142,7 +146,7 @@ header img {
 }
 
 /*********************************/
-/* CAROUSEL ou Section1*/
+/* Trimeck ou Section1*/
 /*********************************/
 .screen-reader-text {
   border: 0;
@@ -161,7 +165,7 @@ header img {
   margin-bottom: 5rem;
 }
 .carousel {
-  width: 120rem;
+  width: 100%;
   margin: 10rem auto;
   padding: 5rem 11rem 5rem 11rem;
   border-radius: 8px;
@@ -225,7 +229,7 @@ header img {
   background-color: #087f5b;
 }
 /*********************************/
-/* Nos Services ou Section2*/
+/*Logiciel ou Section2*/
 /*********************************/
 
 .textCont {
@@ -305,7 +309,7 @@ header img {
 }
 
 /*********************************/
-/* Nos forfaits ou Section3*/
+/* Clients ou Section3*/
 /*********************************/
 #section3 {
   margin-top: 10rem;
@@ -357,8 +361,9 @@ header img {
 }
 
 /*********************************/
-/* satistiques ou section4*/
+/* Des statisques ou section4*/
 /*********************************/
+
 #section4 {
   margin-bottom: 10rem;
   border-bottom: 1.5px solid;
@@ -412,7 +417,7 @@ header img {
 }
 
 /*********************************/
-/* Nous joindre*/
+/* Témoignage ou Section5*/
 /*********************************/
 #section5 {
   border-bottom: 1.5px solid #000;
@@ -466,7 +471,7 @@ header img {
   color: #0f8492;
 }
 /*********************************/
-/* section6 our Nous joindre*/
+/* section6 */
 /*********************************/
 #section6 {
   border-bottom: 1.5px solid #000;
