@@ -438,7 +438,7 @@
   .inputBtn__input {
     padding: 2rem 6rem 2rem 1rem;
   }
-  .imgBtn__img {
+  .textBtn {
     display: flex;
     flex-direction: column;
     align-items: center;
