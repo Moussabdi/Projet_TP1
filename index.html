@@ -39,11 +39,7 @@
               <li class="navbar__item">
                 <div class="navbar__item--flex">
                   <ion-icon name="shapes-outline"></ion-icon>
-                  <a
-                    class="navbar__links"
-                    href="#trimech"
-                    role="tab"
-                    tabindex="1"
+                  <a class="navbar__links" href="#trimech" tabindex="1"
                     >Trimech</a
                   >
                   <ion-icon name="chevron-down-outline"></ion-icon>
@@ -53,11 +49,7 @@
               <li class="navbar__item">
                 <div class="navbar__item--flex">
                   <ion-icon name="shapes-outline"></ion-icon>
-                  <a
-                    class="navbar__links"
-                    href="#logiciel"
-                    role="tab"
-                    tabindex="2"
+                  <a class="navbar__links" href="#logiciel" tabindex="2"
                     >Logiciel</a
                   >
                   <ion-icon name="chevron-down-outline"></ion-icon>
@@ -66,11 +58,7 @@
               <li class="navbar__item">
                 <div class="navbar__item--flex">
                   <ion-icon name="shapes-outline"></ion-icon>
-                  <a
-                    class="navbar__links"
-                    href="#clients"
-                    role="tab"
-                    tabindex="3"
+                  <a class="navbar__links" href="#clients" tabindex="3"
                     >Clients</a
                   >
                 </div>
@@ -78,11 +66,7 @@
               <li class="navbar__item">
                 <div class="navbar__item--flex">
                   <ion-icon name="shapes-outline"></ion-icon>
-                  <a
-                    class="navbar__links"
-                    href="#temoignage"
-                    role="tab"
-                    tabindex="4"
+                  <a class="navbar__links" href="#temoignage" tabindex="4"
                     >Témoignage</a
                   >
                 </div>
@@ -102,7 +86,7 @@
             src="img/Solidworks.png"
             alt="image de modélisation sur SolidWorks"
           />
-          <button class="btn btn--left">
+          <button class="btn btn--left" aria-label="Défilier à gauche">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -118,7 +102,7 @@
               />
             </svg>
           </button>
-          <button class="btn btn--right">
+          <button class="btn btn--right" aria-label="Défilier à droite">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -135,9 +119,15 @@
             </svg>
           </button>
           <div class="dots">
-            <button class="dot dot--fill">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
+            <button class="dot dot--fill" aria-label="bouton de défilement">
+              &nbsp;
+            </button>
+            <button class="dot" aria-label="bouton de défilement">
+              &nbsp;
+            </button>
+            <button class="dot" aria-label="bouton de défilement">
+              &nbsp;
+            </button>
           </div>
         </div>
       </section>
@@ -158,23 +148,22 @@
               <label for="" hidden tabindex="-1">Recherche</label>
               <input
                 type="text"
-                placeholder="Text input"
+                placeholder="Que recherchez-vous?"
                 class="inputBtn__input"
                 tabindex="5"
               />
-              <button class="inputBtn__btn" tabindex="6">Button</button>
+              <button class="inputBtn__btn" tabindex="6">Cliquez ici</button>
             </div>
           </form>
         </div>
-        <div class="imgBtn">
-          <div class="imgBtn__img">
-            <img
-              src="img/signature.png"
-              alt="image de la signature"
-              tabindex="-1"
-            />
-            <button class="imgBtn__btn">Button</button>
+        <div class="textBtn">
+          <div>
+            <p>
+              Nos promotions actuelles! Consultez nos offres afin de bénéficiez
+              des meilleurs prix sur nos logiciels et nos produits 3D.
+            </p>
           </div>
+          <button class="textBtn__btn">Voir les promotions</button>
         </div>
         <div class="container">
           <div class="text--large" tabindex="-1" id="logiciel">
@@ -273,23 +262,23 @@
       </section>
       <section class="container section5" id="temoignage">
         <div class="entete__text">
-          <h2>Des Cards!</h2>
+          <h2>Satisfactions de nos clients!</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
-            doloremque iure a? Ipsam totam eligendi quisquam incidunt ipsum
-            expedita labore, eum minima inventore recusandae! Perspiciatis
-            suscipit cupiditate autem explicabo delectus.
+            Parce que tout ce que nous faisons vise le progrès et l’avancement
+            de la technologie, notre livre n’aura jamais de fin. Nous sommes
+            motivés par des possibilités infinies et tenons parole pour innover
+            et nous améliorer en permanence, rendant la vie des ingénieurs
+            meilleure, plus facile et plus amusante !
           </p>
         </div>
         <div class="quatrecolimgtexticon__items">
           <div class="quatrecolimgtexticon__item">
             <img src="img/head_deep_blue.png" alt="image head_deep_blue" />
-            <h2>Leslie Alexander</h2>
+            <h2>Robert Clark</h2>
             <h3>Co-founder & CEO</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              soluta officiis, esse nihil fuga debitis consectetur beatae
-              cupiditate aliquam dolore.
+              Très satisfait, surtout toujours disponible pour nous aider et
+              répondre à nos questions.
             </p>
 
             <ul class="quatrecolimgtexticon__item__icons">
@@ -321,13 +310,12 @@
             </ul>
           </div>
           <div class="quatrecolimgtexticon__item">
-            <img src="img/head_deep_blue.png" alt="image head_deep_blue" />
+            <img src="img/head_woman_blue.jpeg" alt="image head_woman_blue" />
             <h2>Dianne Russell</h2>
             <h3>Co-founder</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              soluta officiis, esse nihil fuga debitis consectetur beatae
-              cupiditate aliquam dolore.
+              Très compétent et soucieux de son client au plaisir de toujours
+              travaillé avec Design 3D.
             </p>
             <ul class="quatrecolimgtexticon__item__icons">
               <li>
@@ -358,13 +346,12 @@
             </ul>
           </div>
           <div class="quatrecolimgtexticon__item">
-            <img src="img/head_deep_blue.png" alt="image head_deep_blue" />
-            <h2>Jerome Bell</h2>
+            <img src="img/head_emerald.png" alt="image head_emerald" />
+            <h2>Alex Black</h2>
             <h3>CTO</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              soluta officiis, esse nihil fuga debitis consectetur beatae
-              cupiditate aliquam dolore.
+              Nous avons apprécié le souci du détail et sa grande attention.
+              Nous allons continuer à collaborer avec vous!
             </p>
             <ul class="quatrecolimgtexticon__item__icons">
               <li>
@@ -399,9 +386,8 @@
             <h2>Jane Cooper</h2>
             <h3>SMM</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-              soluta officiis, esse nihil fuga debitis consectetur beatae
-              cupiditate aliquam dolore.
+              Grande disponibilité, rigueur et excellent service. Et vous êtes
+              une entreprise qui possède des valeurs nobles.
             </p>
             <ul class="quatrecolimgtexticon__item__icons">
               <li>
@@ -444,10 +430,10 @@
               novalidate
             >
               <div class="title__cont">
-                <h2>Un formulaire</h2>
+                <h2>Demander un devis</h2>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Officiis, a.
+                  Veuillez remplir le formulaire et nous vous contacterons
+                  bientôt!
                 </p>
               </div>
               <div class="input__namelastname">
@@ -499,7 +485,12 @@
                 <div class="errorMessage"></div>
               </div>
 
-              <input type="submit" />
+              <input
+                type="submit"
+                value="Soumettre"
+                tabindex="11"
+                class="btnFormulaire"
+              />
             </form>
           </div>
           <iframe
@@ -510,6 +501,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            title="Carte de google map"
           ></iframe>
         </div>
       </section>
@@ -526,22 +518,26 @@
             <ul class="Footer__menu">
               <li>
                 <a href="#" class="Footer__menu__link" tabindex="11"
-                  >About us</a
+                  >À propos</a
                 >
               </li>
               <li>
-                <a href="#" class="Footer__menu__link" tabindex="12">Feature</a>
-              </li>
-              <li>
-                <a href="#" class="Footer__menu__link" tabindex="13"
-                  >Princing</a
+                <a href="#" class="Footer__menu__link" tabindex="12"
+                  >Fonctionnalité</a
                 >
               </li>
               <li>
-                <a href="#" class="Footer__menu__link" tabindex="14">Carrer</a>
+                <a href="#" class="Footer__menu__link" tabindex="13">Prix</a>
               </li>
               <li>
-                <a href="#" class="Footer__menu__link" tabindex="15">FAQs</a>
+                <a href="#" class="Footer__menu__link" tabindex="14"
+                  >Carrière</a
+                >
+              </li>
+              <li>
+                <a href="#" class="Footer__menu__link" tabindex="15"
+                  >Questions</a
+                >
               </li>
               <li>
                 <a href="#" class="Footer__menu__link" tabindex="16"

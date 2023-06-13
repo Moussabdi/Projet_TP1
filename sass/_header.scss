@@ -35,16 +35,15 @@ p {
   margin: 0;
 }
 
-.header {
+header {
   background-color: $color-background-header;
   color: $color-text-header_footer;
   position: relative;
   align-items: center;
   padding: 1rem 0 1rem 0;
-}
-
-header img {
-  width: 100%;
-  position: relative;
-  top: 1rem;
+  img {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+  }
 }

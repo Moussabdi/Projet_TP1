@@ -3,13 +3,16 @@
 /* footer*/
 /*********************************/
 footer {
-  margin-bottom: 4rem;
+  padding-bottom: 4rem;
   background-color: $color-background-footer;
+  p {
+    color: $color-text-header_footer;
+  }
 }
 
 .BordureFooter {
   border-bottom: 2px solid #999;
-  border-top: 2px solid #000;
+  border-top: 2px solid #999;
   margin-bottom: 5rem;
   margin-top: 8rem;
   padding-bottom: 5rem;
@@ -20,29 +23,27 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  .logo {
+    margin-bottom: 2rem;
+  }
+  .Footer__menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+  }
 }
-.Footer__section7 .logo {
-  margin-bottom: 2rem;
-}
-.Footer__menu {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 1rem;
-}
-.Footer__menu__link:link,
+.Footer__section7 .Footer__menu__link:link,
 .Footer__menu__link:visited {
   display: inline-block;
   text-decoration: underline;
   padding: 1rem 2.5rem;
-  background-color: #fff;
-  color: #000;
+  color: $color-text-header_footer;
 }
 
 .Footer__menu__link:hover,
 .Footer__menu__link:active {
-  background-color: #999;
-  color: $color-text-header_footer;
+  color: $color-text-header_footer_active;
 }
 .Footer__section8 {
   display: flex;
@@ -58,35 +59,36 @@ footer {
 .Footer__section8__textnumero__item--icon {
   width: 2.8rem;
   height: 2.8rem;
-  color: $color-background-header;
+  color: $color-text-header_footer;
+}
+
+%flexFooter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 .Footer__section8__textnumero__items {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  @extend %flexFooter;
 }
 .Footer__section8__textnumero__item {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  @extend %flexFooter;
 }
+
 .Footer__section8__textnumero__item__numero--link,
 .Footer__section8__textnumero__item__email--link {
-  color: #000;
+  color: $color-text-header_footer;
 }
 
 .Footer__section8__textnumero__item__numero--link:link,
 .Footer__section8__textnumero__item__numero--link:visited,
 .Footer__section8__textnumero__item__email--link:link,
 .Footer__section8__textnumero__item__email--link:visited {
-  background-color: #fff;
-  color: #000;
+  color: $color-text-header_footer;
 }
 
 .Footer_section8_textnumero__item__numero_link:hover,
 .Footer_section8_textnumero__item__numero_link:active,
 .Footer_section8_textnumero__item__email_link:hover,
 .Footer_section8_textnumero__item__email_link:active {
-  background-color: #999;
-  color: $color-text-header_footer;
+  color: $color-text-header_footer_active;
 }

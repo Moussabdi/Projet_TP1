@@ -18,14 +18,25 @@
   padding: 2rem;
   border-radius: 2rem;
   background-color: #c9c9c9;
+
+  input[type="submit"] {
+    padding: 1.5rem;
+    margin-top: 10px;
+    width: 20%;
+    color: $color-text-header_footer;
+    background-color: $color-background-footer;
+    border: none;
+    border-radius: 4px;
+  }
 }
 .title_cont {
   width: 60%;
   margin-bottom: 2rem;
+  p {
+    margin-top: 1rem;
+  }
 }
-.title__cont p {
-  margin-top: 1rem;
-}
+
 .input__namelastname {
   display: flex;
   justify-content: space-between;
@@ -34,45 +45,41 @@
   padding-right: 13rem;
 }
 
-#form input[type="submit"] {
-  padding: 10px;
-  margin-top: 10px;
-  width: 20%;
-  color: white;
-  background-color: #545454;
-  border: none;
-  border-radius: 4px;
+.btnFormulaire:link,
+.btnFormulaire:visited {
+  background-color: $color-background-footer;
+}
+.btnFormulaire:hover,
+.btnFormulaire:active {
+  background-color: $color-background_btn_active;
+}
+
+.input--control.success .input--control.error input {
+  border-color: #ff3860;
 }
 
 .input--control {
   display: flex;
   flex-direction: column;
-}
-
-.input--control input {
-  border: 2px solid #f0f0f0;
-  border-radius: 4px;
-  display: block;
-  font-size: 1.2rem;
-  padding: 1rem;
-}
-.input--control input[name="message"] {
-  padding-bottom: 5rem;
-}
-.input--control input:focus {
-  outline: 0;
-}
-
-.input--control.success input {
-  border-color: #09c372;
-}
-
-.input--control.error input {
-  border-color: #ff3860;
-}
-
-.input--control .errorMessage {
-  color: #ff3860;
-  font-size: 9px;
-  height: 13px;
+  input[name="message"] {
+    padding-bottom: 5rem;
+  }
+  input:focus {
+    outline: 0;
+  }
+  input {
+    border-color: #09c372;
+  }
+  input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  .errorMessage {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+  }
 }
