@@ -8,10 +8,12 @@
   font-size: 1.8rem;
   z-index: 999;
 }
-
-.navbar__container {
+%navflex {
   display: flex;
   justify-content: space-between;
+}
+.navbar__container {
+  @extend %navflex;
   height: 8rem;
   z-index: 1;
   width: 100%;
@@ -19,8 +21,7 @@
   margin: 0 auto;
 }
 .navbar__menu {
-  display: flex;
-  justify-content: space-between;
+  @extend %navflex;
   gap: 2rem;
   position: relative;
   list-style: none;

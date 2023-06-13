@@ -40,9 +40,9 @@
 .input__namelastname {
   display: flex;
   justify-content: space-between;
-}
-.input__namelastname input[type="text"] {
-  padding-right: 13rem;
+  input[type="text"] {
+    padding-right: 13rem;
+  }
 }
 
 .btnFormulaire:link,

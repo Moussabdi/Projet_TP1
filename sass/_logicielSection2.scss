@@ -1,5 +1,5 @@
 @import "variable";
-
+@import "mixine";
 /*********************************/
 /*Logiciel ou Section2*/
 /*********************************/
@@ -54,12 +54,14 @@
 .textBtn__btn:visited {
   background-color: $color-background-footer;
   color: $color-text-header_footer;
+  @include btn(green, 2rem);
 }
 .inputBtn__btn:hover,
 .inputBtn__btn:active,
 .textBtn__btn:hover,
 .textBtn__btn:active {
   background-color: $color-background_btn_active;
+  @include btn(rgb(60, 38, 187), 2rem);
 }
 
 %textModification {

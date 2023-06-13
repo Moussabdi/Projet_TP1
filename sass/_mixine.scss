@@ -1,0 +1,9 @@
+@mixin btn($color-background_btn_active: green, $taille-text: 3rem) {
+  background-color: $color-background_btn_active;
+  font-size: $taille-text;
+}
+
+@mixin textEffet($taille-text: 2rem, $color-textEffet: black) {
+  font-size: $taille-text;
+  color: $color-textEffet;
+}

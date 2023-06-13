@@ -1,4 +1,5 @@
 @import "variable";
+@import "mixine";
 /*********************************/
 /* footer*/
 /*********************************/
@@ -43,7 +44,8 @@ footer {
 
 .Footer__menu__link:hover,
 .Footer__menu__link:active {
-  color: $color-text-header_footer_active;
+  /* color: $color-text-header_footer_active; */
+  @include textEffet(2rem, green);
 }
 .Footer__section8 {
   display: flex;

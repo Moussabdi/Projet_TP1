@@ -14,13 +14,14 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  h2 {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-bottom: 8rem;
+  }
 }
-.entete__text h2 {
-  margin-bottom: 2rem;
-}
-.entete__text p {
-  margin-bottom: 8rem;
-}
+
 .quatrecolimgtexticon__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -29,20 +30,22 @@
 .quatrecolimgtexticon__item:not(:nth-of-type(4)) {
   border-right: 1px solid #999;
 }
-.quatrecolimgtexticon__item img {
-  width: 50%;
-  border-radius: 1rem;
-}
-.quatrecolimgtexticon__item h2 {
-  font-size: 3rem;
-}
-.quatrecolimgtexticon__item h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-.quatrecolimgtexticon__item p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+.quatrecolimgtexticon__item {
+  img {
+    width: 50%;
+    border-radius: 1rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
 }
 .quatrecolimgtexticon__item__icons {
   display: flex;
